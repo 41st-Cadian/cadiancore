@@ -12,7 +12,7 @@ class CfgPatches {
             ITEM_LIST
         };
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"A3_Characters_F","JLTS_characters_DroidArmor"};
+        requiredAddons[] = {"A3_Characters_F"};
         skipWhenMissingDependencies = 1;
         VERSION_CONFIG;
     };

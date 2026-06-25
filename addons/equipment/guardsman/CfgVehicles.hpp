@@ -8,6 +8,5 @@ class CfgVehicles {
     class JLTS_Droid_B1_E5;
 
     #include "cfg\Units.hpp"
-    #include "cfg\Droidekas.hpp"
     #include "groundholders.hpp"
 };

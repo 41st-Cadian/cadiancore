@@ -1,6 +1,6 @@
 #define COMPONENT equipment
 #define COMPONENT_BEAUTIFIED Equipment
-#include "\z\baw\addons\main\script_mod.hpp"
+#include "\z\cadcore\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL
 // #define DISABLE_COMPILE_CACHE
@@ -14,5 +14,5 @@
     #define DEBUG_SETTINGS DEBUG_SETTINGS_EQUIPMENT
 #endif
 
-#include "\z\baw\addons\main\script_macros.hpp"
+#include "\z\cadcore\addons\main\script_macros.hpp"
 #include "script_macros.hpp"
