@@ -1,0 +1,901 @@
+version=54;
+class EditorData
+{
+	moveGridStep=1;
+	angleGridStep=0.2617994;
+	scaleGridStep=1;
+	autoGroupingDist=10;
+	toggles=1;
+	class ItemIDProvider
+	{
+		nextID=60;
+	};
+	class MarkerIDProvider
+	{
+		nextID=3;
+	};
+	class Camera
+	{
+		pos[]={2462.0654,79.882492,5674.0767};
+		dir[]={-0.67007118,-0.35102269,0.65414178};
+		up[]={-0.25123379,0.93633419,0.24525779};
+		aside[]={0.69858962,1.2166565e-006,0.71560788};
+	};
+};
+binarizationWanted=0;
+sourceName="testbed";
+addons[]=
+{
+	"A3_Characters_F",
+	"mti_weapons_verpine",
+	"mti_weapons_core",
+	"JLTS_characters_CloneArmor",
+	"A3_Weapons_F",
+	"JLTS_weapons_Core",
+	"JLTS_radios",
+	"A3_Drones_F_Weapons_F_Gamma_Items",
+	"JLTS_core",
+	"JLTS_characters_CloneLegions",
+	"mti_drones_paap",
+	"A3_Modules_F_Curator_Curator",
+	"A3_Ui_F",
+	"mti_mortar_turret",
+	"JLTS_characters_CloneArmor2",
+	"mti_supplies",
+	"3AS_Prop_Platforms",
+	"A3_Characters_F_Common"
+};
+class AddonsMetaData
+{
+	class List
+	{
+		items=17;
+		class Item0
+		{
+			className="A3_Characters_F";
+			name="Arma 3 Alpha - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item1
+		{
+			className="mti_weapons_verpine";
+			name="MokTech Industries - Weapons (DC-19SC)";
+			author="MokTech Industries";
+			url="https://discord.gg/Pu2gdBd7Te/";
+		};
+		class Item2
+		{
+			className="mti_weapons_core";
+			name="MokTech Industries - Weapons";
+			author="MokTech Industries";
+			url="https://discord.gg/Pu2gdBd7Te/";
+		};
+		class Item3
+		{
+			className="JLTS_characters_CloneArmor";
+			name="JLTS The Great War - Clones I";
+			author="MrClock";
+		};
+		class Item4
+		{
+			className="A3_Weapons_F";
+			name="Arma 3 Alpha - Weapons and Accessories";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item5
+		{
+			className="JLTS_weapons_Core";
+			name="JLTS The Great War - Weapons Core";
+			author="MrClock";
+		};
+		class Item6
+		{
+			className="JLTS_radios";
+			name="JLTS The Great War - Radios";
+			author="MrClock";
+		};
+		class Item7
+		{
+			className="A3_Drones_F";
+			name="Arma 3 Beta - Drones";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item8
+		{
+			className="JLTS_core";
+			name="JLTS The Great War - Core";
+			author="MrClock";
+		};
+		class Item9
+		{
+			className="JLTS_characters_CloneLegions";
+			name="JLTS The Great War - Clone units";
+			author="MrClock";
+		};
+		class Item10
+		{
+			className="mti_drones_paap";
+			name="MokTech Industries - PAAP/PATP";
+			author="MokTech Industries";
+			url="https://discord.gg/Pu2gdBd7Te/";
+		};
+		class Item11
+		{
+			className="A3_Modules_F_Curator";
+			name="Arma 3 Zeus Update - Scripted Modules";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item12
+		{
+			className="A3_Ui_F";
+			name="Arma 3 - User Interface";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item13
+		{
+			className="mti_mortar_turret";
+			name="MokTech Industries - Mortar Turret";
+			author="MokTech Industries";
+			url="https://discord.gg/Pu2gdBd7Te/";
+		};
+		class Item14
+		{
+			className="JLTS_characters_CloneArmor2";
+			name="JLTS The Great War - Clones II";
+			author="MrClock";
+		};
+		class Item15
+		{
+			className="mti_supplies";
+			name="MokTech Industries - Supplies";
+			author="MokTech Industries";
+			url="https://discord.gg/Pu2gdBd7Te/";
+		};
+		class Item16
+		{
+			className="3AS_Prop_Platforms";
+			name="3AS_Prop_Platforms";
+			author="3rd Army Studios";
+		};
+	};
+};
+class DynamicSimulation
+{
+	class EnableRadiuses
+	{
+		Prop=150;
+		EmptyVehicle=2500;
+		Vehicle=3500;
+		Group=1500;
+	};
+	class EnableRadiuseCoefs
+	{
+		IsMoving=3;
+	};
+};
+dlcs[]=
+{
+	"Expansion"
+};
+randomSeed=2371665;
+class ScenarioData
+{
+	author="Mokka";
+	overViewPicture="\z\mti\Addons\common\data\insignias\SOB_insignia_ca.paa";
+	overViewPictureLocked="\z\mti\Addons\common\data\insignias\SOB_insignia_ca.paa";
+	loadScreen="\z\mti\Addons\common\data\insignias\SOB_insignia_ca.paa";
+	briefing=0;
+	debriefing=0;
+	saving=0;
+	disabledAI=1;
+	respawn=3;
+	class Header
+	{
+		maxPlayers=2;
+	};
+	wreckRemovalMaxTime=3600;
+};
+class CustomAttributes
+{
+	class Category1
+	{
+		name="Multiplayer";
+		class Attribute0
+		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					singleType="ARRAY";
+				};
+			};
+		};
+		nAttributes=1;
+	};
+	class Category2
+	{
+		name="Scenario";
+		class Attribute0
+		{
+			property="cba_settings_hasSettingsFile";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					singleType="BOOL";
+					value=1;
+				};
+			};
+		};
+		class Attribute1
+		{
+			property="EnableDebugConsole";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					singleType="SCALAR";
+					value=1;
+				};
+			};
+		};
+		nAttributes=2;
+	};
+};
+class Mission
+{
+	class Intel
+	{
+		briefingName="MokTech Testbed";
+		timeOfChanges=1800.0002;
+		startWeather=0;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		wavesForced=1;
+		windForced=1;
+		year=2035;
+		day=28;
+		hour=13;
+		minute=37;
+		startFogDecay=0.014;
+		forecastFogDecay=0.014;
+	};
+	class Entities
+	{
+		items=17;
+		class Item0
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2454.4807,75.489594,5678.6533};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="[this] call mti_hungergames_fnc_registertribute;";
+						isPlayer=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="MTI_Verpine";
+								optics="MTI_Verpine_scope";
+								firemode="MTI_Verpine:Single";
+								class primaryMuzzleMag
+								{
+									name="MTI_Verpine_mag";
+									ammoLeft=20;
+								};
+							};
+							class binocular
+							{
+								name="JLTS_CloneBinocular";
+								class primaryMuzzleMag
+								{
+									name="Laserbatteries";
+									ammoLeft=1;
+								};
+							};
+							class uniform
+							{
+								typeName="JLTS_CloneArmor";
+								isBackpack=0;
+							};
+							class vest
+							{
+								typeName="JLTS_CloneVestARC_501_Jesse";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=2;
+									class Item0
+									{
+										name="mti_drones_paap_aa_packed";
+										count=1;
+									};
+									class Item1
+									{
+										name="mti_drones_paap_at_packed";
+										count=1;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="mti_fortify_test_pack";
+								isBackpack=1;
+								class MagazineCargo
+								{
+									items=2;
+									class Item0
+									{
+										name="mti_drones_paap_aa_mag";
+										count=3;
+										ammoLeft=4;
+									};
+									class Item1
+									{
+										name="mti_drones_paap_at_mag";
+										count=2;
+										ammoLeft=4;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="JLTS_clone_comlink";
+							gps="B_UavTerminal";
+							hmd="JLTS_NVG_droid_chip_1";
+							headgear="JLTS_CloneHelmetP2";
+						};
+					};
+					id=1;
+					type="B_Soldier_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male08ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.98000002;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=0;
+		};
+		class Item1
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={1871.1615,5.6253777,5836.5015};
+			};
+			id=4;
+			type="ModuleCurator_F";
+			atlOffset=0.12537766;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ModuleCurator_F_Owner";
+					expression="_this setVariable ['Owner',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="#adminLogged";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ModuleCurator_F_Forced";
+					expression="_this setVariable ['Forced',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=0;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ModuleCurator_F_Name";
+					expression="_this setVariable ['Name',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ModuleCurator_F_Addons";
+					expression="_this setVariable ['Addons',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=3;
+						};
+					};
+				};
+				nAttributes=4;
+			};
+		};
+		class Item2
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={1871.162,5.584507,5837.9849};
+			};
+			id=5;
+			type="ModuleCuratorAddEditableObjects";
+			atlOffset=0.084506989;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ModuleCuratorAddEditableObjects_Curator";
+					expression="_this setVariable ['Curator',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ModuleCuratorAddEditableObjects_AddCrew";
+					expression="_this setVariable ['AddCrew',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=1;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item3
+		{
+			dataType="Marker";
+			position[]={2537.3799,5,6287.9019};
+			name="respawn";
+			type="Empty";
+			id=6;
+			atlOffset=40.369518;
+		};
+		class Item4
+		{
+			dataType="Marker";
+			position[]={2903.741,5,6015.0278};
+			name="tribute_pos_center";
+			text="tribute_pos_center";
+			type="mil_circle";
+			id=13;
+			atlOffset=3.4227996;
+		};
+		class Item5
+		{
+			dataType="Marker";
+			position[]={2904.978,5,6175.8271};
+			name="tribute_pos_0";
+			text="tribute_pos_0";
+			type="mil_dot";
+			id=14;
+			atlOffset=-18.137093;
+		};
+		class Item6
+		{
+			dataType="Marker";
+			position[]={3096.7629,5,6001.4219};
+			name="tribute_pos_1";
+			text="tribute_pos_1";
+			type="mil_dot";
+			id=15;
+			atlOffset=1.6997657;
+		};
+		class Item7
+		{
+			dataType="Marker";
+			position[]={2909.927,5,5860.4131};
+			name="tribute_pos_2";
+			text="tribute_pos_2";
+			type="mil_dot";
+			id=16;
+			atlOffset=-2.8766799;
+		};
+		class Item8
+		{
+			dataType="Marker";
+			position[]={2754.0249,5,6010.0801};
+			name="tribute_pos_3";
+			text="tribute_pos_3";
+			type="mil_dot";
+			id=17;
+			atlOffset=14.8255;
+		};
+		class Item9
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2444.5181,73.967903,5683.1807};
+						angles[]={0,1.9765422,0};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="[this] call mti_hungergames_fnc_registertribute;";
+						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="MTI_Verpine";
+								optics="MTI_Verpine_scope";
+								firemode="MTI_Verpine:Single";
+								class primaryMuzzleMag
+								{
+									name="MTI_Verpine_mag";
+									ammoLeft=20;
+								};
+							};
+							class secondaryWeapon
+							{
+								name="mti_mortar_turret_carry_tripod";
+							};
+							class binocular
+							{
+								name="JLTS_CloneBinocular";
+								class primaryMuzzleMag
+								{
+									name="Laserbatteries";
+									ammoLeft=1;
+								};
+							};
+							class uniform
+							{
+								typeName="JLTS_CloneArmor";
+								isBackpack=0;
+							};
+							class vest
+							{
+								typeName="JLTS_CloneVestHolster";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="JLTS_clone_comlink";
+							gps="B_UavTerminal";
+							hmd="JLTS_NVG_droid_chip_1";
+							headgear="JLTS_CloneHelmetP2";
+						};
+					};
+					id=50;
+					type="B_Soldier_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male08ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.98000002;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=49;
+		};
+		class Item10
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2448.5325,74.254852,5687.0073};
+				angles[]={6.2407041,0,0.029984757};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="this addMagazineCargo [""mti_mortar_turret_he_mag"",2];this addMagazineCargo [""mti_mortar_turret_ranging_mag"",2];this addMagazineCargo [""mti_mortar_turret_he_airburst_mag"",2];this addMagazineCargo [""mti_mortar_turret_smoke_mag"",2];this addMagazineCargo [""mti_mortar_turret_mine_mag"",2];this addMagazineCargo [""mti_mortar_turret_flare_mag"",2];this addMagazineCargo [""mti_mortar_turret_flare_ir_mag"",2];";
+			};
+			id=51;
+			type="mti_supplies_crate_empty";
+			atlOffset=0.0029983521;
+		};
+		class Item11
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2453.9202,74.779877,5679.1802};
+				angles[]={6.2581892,0,6.2531958};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=52;
+			type="3AS_Prop_Baseplate_10_White";
+		};
+		class Item12
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2445.9692,74.055466,5684.2871};
+				angles[]={6.2182775,0,0.034986377};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=53;
+			type="mti_supplies_crate_fieldsupport_adbm";
+			atlOffset=-2.2888184e-005;
+		};
+		class Item13
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2456.4932,75.49485,5681.5679};
+						angles[]={6.2581916,0,6.2531877};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+					};
+					id=56;
+					type="B_UAV_AI";
+					atlOffset=0.092857361;
+				};
+			};
+			class Attributes
+			{
+			};
+			class CrewLinks
+			{
+				class LinkIDProvider
+				{
+					nextID=1;
+				};
+				class Links
+				{
+					items=1;
+					class Item0
+					{
+						linkID=0;
+						item0=56;
+						item1=55;
+						class CustomData
+						{
+							role=2;
+							turretPath[]={0};
+						};
+					};
+				};
+			};
+			id=54;
+			atlOffset=7.6293945e-006;
+		};
+		class Item14
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2456.4932,75.493408,5681.5181};
+				angles[]={6.2581916,0,6.2531877};
+			};
+			side="West";
+			flags=6;
+			class Attributes
+			{
+				reportRemoteTargets=1;
+				reportOwnPosition=1;
+			};
+			id=55;
+			type="mti_drones_paap_aa";
+			atlOffset=7.6293945e-006;
+		};
+		class Item15
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2457.7002,75.465912,5681.8594};
+						angles[]={6.2581916,0,6.2531877};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+					};
+					id=59;
+					type="B_UAV_AI";
+					atlOffset=0.092849731;
+				};
+			};
+			class Attributes
+			{
+			};
+			class CrewLinks
+			{
+				class LinkIDProvider
+				{
+					nextID=1;
+				};
+				class Links
+				{
+					items=1;
+					class Item0
+					{
+						linkID=0;
+						item0=59;
+						item1=58;
+						class CustomData
+						{
+							role=2;
+							turretPath[]={0};
+						};
+					};
+				};
+			};
+			id=57;
+		};
+		class Item16
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2457.7002,75.46447,5681.8096};
+				angles[]={6.2581916,0,6.2531877};
+			};
+			side="West";
+			flags=6;
+			class Attributes
+			{
+				reportRemoteTargets=1;
+				reportOwnPosition=1;
+			};
+			id=58;
+			type="mti_drones_paap_at";
+		};
+	};
+	class Connections
+	{
+		class LinkIDProvider
+		{
+			nextID=1;
+		};
+		class Links
+		{
+			items=1;
+			class Item0
+			{
+				linkID=0;
+				item0=5;
+				item1=4;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+		};
+	};
+};

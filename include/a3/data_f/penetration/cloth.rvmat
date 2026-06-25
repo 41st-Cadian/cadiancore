@@ -1,0 +1,12 @@
+////////////////////////////////////////////////////////////////////
+//DeRap: Penetration\cloth.rvmat
+//Produced from mikero's Dos Tools Dll version 10.13
+//https://mikero.bytex.digital/Downloads
+//'now' is Fri May 29 22:35:19 2026 : 'file' last modified on Tue Jul 02 15:59:59 2019
+////////////////////////////////////////////////////////////////////
+
+#define _ARMA_
+
+surfaceInfo = "A3\data_f\Penetration\cloth.bisurf";
+diffuse[] = {0.75,0.8,0.3,1.0};
+ambient[] = {0.75,0.8,0.3,1.0};

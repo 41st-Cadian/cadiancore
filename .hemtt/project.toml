@@ -1,0 +1,17 @@
+name = "Cadian - Core"
+prefix = "cadcore"
+author = "Rowdy Rodent Industries"
+mainprefix = "z"
+
+[version]
+git_hash = 0
+
+[properties]
+author = "Rowdy Rodent Industries"
+url = "https://discord.gg/Pu2gdBd7Te"
+
+[hemtt.build]
+binarize = true
+
+[hemtt.release]
+archive = true

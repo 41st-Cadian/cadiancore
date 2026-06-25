@@ -1,0 +1,24 @@
+# IDEA stuff
+.idea/
+*.iml
+
+\.vscode/launch.json
+out/
+\.vscode/settings\.json
+
+*.code-workspace
+
+*.zip
+release/*
+releases/*
+hemtt.exe
+*.png
+.hemttout/
+.hemtt/missions/~*
+*.log
+
+__pycache__/
+*.pyc
+
+docs/addons/
+docs_sidebar.md
