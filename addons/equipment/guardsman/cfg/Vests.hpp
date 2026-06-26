@@ -20,6 +20,14 @@ class GVEST(base): FIG_CadianArmourPV1 {
         VEST_PROTECTION;
     };
 };
+class GVEST(senior): GVEST(base){
+    displayName = "[41st] Senior Guardsman Armour";
+    hiddenSelectionsTextures[] = {QPATHTOF(data\vest\senior_co.paa),"\FIG_Imperial_Guard\FIG_Cadians\data\CadianArmour\FIG_CadianPouches_co.paa"};
+};
+class GVEST(vet): GVEST(base){
+    displayName = "[41st] Veteran Guardsman Armour";
+    hiddenSelectionsTextures[] = {QPATHTOF(data\vest\veteran_co.paa),"\FIG_Imperial_Guard\FIG_Cadians\data\CadianArmour\FIG_CadianPouches_co.paa"};
+};
 class GVEST(medic): FIG_CadianArmourPV2 {
     scope = 2;
     author = AUTHOR;
