@@ -32,7 +32,7 @@ class GVEST(medic): FIG_CadianArmourPV2 {
     scope = 2;
     author = AUTHOR;
     displayName = "[41st] Guardsman Medic Armour";
-    hiddenSelectionsTextures[] = {QPATHTOF(data\vest\base_co.paa),"\FIG_Imperial_Guard\FIG_Cadians\data\CadianArmour\FIG_CadianPouches_co.paa"};
+    hiddenSelectionsTextures[] = {QPATHTOF(data\vest\medic_co.paa),"\FIG_Imperial_Guard\FIG_Cadians\data\CadianArmour\FIG_CadianPouches_co.paa"};
     class ItemInfo: ItemInfo {
         containerClass = VEST_SUPPLYCLASS;
         vestType = "Rebreather";
@@ -42,8 +42,8 @@ class GVEST(medic): FIG_CadianArmourPV2 {
 class GVEST(assault): FIG_CadianArmourPV3{
     scope = 2;
     author = AUTHOR;
-    displayName = "[41st] Guardsman Assault Armour";
-    hiddenSelectionsTextures[] = {QPATHTOF(data\vest\base_co.paa),"\FIG_Imperial_Guard\FIG_Cadians\data\CadianArmour\FIG_CadianPouches_co.paa","\FIG_Imperial_Guard\FIG_Cadians\data\CadianArmour\FIG_CadianPouchesV2_co.paa"};
+    displayName = "[41st] Sergeant Armour";
+    hiddenSelectionsTextures[] = {QPATHTOF(data\vest\sgt_co.paa),"\FIG_Imperial_Guard\FIG_Cadians\data\CadianArmour\FIG_CadianPouches_co.paa","\FIG_Imperial_Guard\FIG_Cadians\data\CadianArmour\FIG_CadianPouchesV2_co.paa"};
     class ItemInfo: ItemInfo {
         containerClass = VEST_SUPPLYCLASS;
         vestType = "Rebreather";
