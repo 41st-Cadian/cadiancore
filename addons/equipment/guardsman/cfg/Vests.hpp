@@ -31,7 +31,7 @@ class GVEST(vet): GVEST(base){
 class GVEST(medic): FIG_CadianArmourPV2 {
     scope = 2;
     author = AUTHOR;
-    displayName = "[41st] Guardsman Medic Armour";
+    displayName = "[41st] Guardsman Medicae Armour";
     hiddenSelectionsTextures[] = {QPATHTOF(data\vest\medic_co.paa),"\FIG_Imperial_Guard\FIG_Cadians\data\CadianArmour\FIG_CadianPouches_co.paa"};
     class ItemInfo: ItemInfo {
         containerClass = VEST_SUPPLYCLASS;

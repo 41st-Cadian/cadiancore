@@ -21,3 +21,5 @@ class CfgPatches {
 
 #include "CfgEventHandlers.hpp"
 #include "CfgMods.hpp"
+#include "CfgRadios.hpp"
+#include "CfgWeapons.hpp"

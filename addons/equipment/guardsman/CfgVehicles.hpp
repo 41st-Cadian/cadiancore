@@ -1,11 +1,12 @@
 class CfgVehicles {
 
-    class JLTS_B1_backpack;
-    class JLTS_B1_antenna;
-    class JLTS_B1_jetpack;
+    class FIG_CadianBackpack1;
+    class FIG_CadianWebbingBP;
+    class FIG_CadianWebbing2BP;
+    class FIG_CadianWebbing3BP;
+    class FIG_BandolierLPBP;
+    class FIG_CadianVoxBackpack;
     #include "cfg\Backpacks.hpp"
-
-    class JLTS_Droid_B1_E5;
 
     #include "cfg\Units.hpp"
     #include "groundholders.hpp"
